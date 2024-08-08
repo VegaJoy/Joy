@@ -1,3 +1,3 @@
 # Joy-Gameserver
 
-Fortnite Gameserver (7.30)
+Fortnite Gameserver (12.41)
