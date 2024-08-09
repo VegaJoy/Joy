@@ -1,6 +1,6 @@
 # Joy-Gameserver
 
-Fortnite Gameserver (8.51, 9.41)
+Fortnite Gameserver (8.51)
 
 **Don't Forget To Extract SDK**
 
