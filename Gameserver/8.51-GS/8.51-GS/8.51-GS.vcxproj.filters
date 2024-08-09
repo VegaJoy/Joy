@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fortnite">
+      <UniqueIdentifier>{d8f008a7-c5e3-46d3-8cd0-79986982b4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\Game">
+      <UniqueIdentifier>{c2641ed7-7e03-4694-a07b-b886148f3008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7e456c19-d62b-440f-b8f5-2fbbd3a1ea2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{711430c1-c4f7-4b8b-9a66-6cd015dec35b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fortnite</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Basic.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FortniteGame_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamemode.h">
+      <Filter>Fortnite\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
